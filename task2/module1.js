@@ -42,11 +42,6 @@ export const module1 = {
         return map;
     }
 }
-module1.ucFirst('fffQQQQDDDdddd');
-module1.goodTransformStr('Вот пример строки,в которой   ,  используются знаки препинания.После "\' +\n' +
-    '//         \'"знаков должны стоять пробелы , а перед знаками их .быть не должно .    ');
-module1.numOfWordsToLines('Посдчитывающие кол-во слов в строке');
-module1.numOfUniqWordsToLines('Текст, в котором слово .текст текст несколько , .раз ' +
-    'встречается и слово тоже " - в');
+
 
 
