@@ -56,7 +56,7 @@ function outputValidObjects(arr, str) {
         return true;
     });
 }
-const str1 = 'name-starts-fd&quantity=5'
+const str1 = 'name-starts-fd&quantity-=5'
 const str2 = 'name-contains-fd&price-=2-&quantity->5&description-ends-abc';
 
 const newArr1 = outputValidObjects(arr, str1);
